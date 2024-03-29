@@ -1,6 +1,7 @@
 --
 -- User creation and permission granting
 -- Criação dos usuários e concessão de permissões
+-- Author: Wesley David Santos
 --
 DECLARE
     TYPE username_array IS TABLE OF VARCHAR2(50) INDEX BY PLS_INTEGER;
